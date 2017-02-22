@@ -1,0 +1,29 @@
+exports[`test should process commits properly 1`] = `
+Array [
+  Object {
+    "action": "fixes",
+    "cardId": "EPJ8UQb7",
+    "commitUrl": "https://github.com/OrgName/ProjectName/commit/a1",
+  },
+  Object {
+    "action": "fixes",
+    "cardId": "EPJ8UQb7",
+    "commitUrl": "https://github.com/OrgName/ProjectName/commit/a2",
+  },
+  Object {
+    "action": "related",
+    "cardId": "EPJ8UQb7",
+    "commitUrl": "https://github.com/OrgName/ProjectName/commit/a3",
+  },
+  Object {
+    "action": "fixes",
+    "cardId": "EPJ8UQb7",
+    "commitUrl": "https://github.com/OrgName/ProjectName/commit/a4",
+  },
+  Object {
+    "action": "fixed",
+    "cardId": "EPJ8UQb7",
+    "commitUrl": "https://github.com/OrgName/ProjectName/commit/a5",
+  },
+]
+`;

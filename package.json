@@ -1,0 +1,15 @@
+{
+	"name": "github-trello-hook",
+	"version": "1.0.2",
+	"description": "Github to Trello hook, for moving and commenting cards from Github commits",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"start": "node index.js"
+	},
+	"author": "Sergio Crisostomo",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^18.1.0"
+	}
+}
