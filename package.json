@@ -1,6 +1,6 @@
 {
 	"name": "github-trello-hook",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Github to Trello hook, for moving and commenting cards from Github commits",
 	"main": "index.js",
 	"scripts": {
