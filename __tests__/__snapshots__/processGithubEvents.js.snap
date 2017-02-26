@@ -25,5 +25,10 @@ Array [
     "cardId": "EPJ8UQb7",
     "commitUrl": "https://github.com/OrgName/ProjectName/commit/a5",
   },
+  Object {
+    "action": "related",
+    "cardId": "EPJ8UQb7",
+    "commitUrl": "https://github.com/OrgName/ProjectName/commit/a6",
+  },
 ]
 `;

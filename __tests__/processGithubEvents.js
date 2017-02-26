@@ -25,6 +25,10 @@ const commits = [
 	{
 		message: "Some nice descrition.\n\nfixed https://trello.com/c/EPJ8UQb7 and some more text",
 		url: "https://github.com/OrgName/ProjectName/commit/a5"
+	},
+	{
+		message: "related to https://trello.com/c/EPJ8UQb7 and some more text",
+		url: "https://github.com/OrgName/ProjectName/commit/a6"
 	}
 ];
 
@@ -32,7 +36,7 @@ test('should process commits properly', (done) => {
 	const results = [];
 	processGithubEvents({commits: commits}, (obj) => {
 		results.push(obj);
-		if (results.length == 5){
+		if (results.length == 6){
 			const sortedAnswers = results.sort((a, b) => a.commitUrl > b.commitUrl);
 			expect(sortedAnswers).toMatchSnapshot();
 			done();
